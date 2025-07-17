@@ -1,0 +1,29 @@
+[2025-07-17T19:49:34.500Z] info: kubernetes.yaml was copied to the config folder
+[2025-07-17T19:49:35.953Z] info: widgets.yaml was copied to the config folder
+[2025-07-17T19:49:36.004Z] info: docker.yaml was copied to the config folder
+[2025-07-17T19:49:36.005Z] info: bookmarks.yaml was copied to the config folder
+[2025-07-17T19:49:36.007Z] info: proxmox.yaml was copied to the config folder
+[2025-07-17T19:49:36.041Z] info: custom.css was copied to the config folder
+[2025-07-17T19:49:36.042Z] info: custom.js was copied to the config folder
+[2025-07-17T19:51:34.590Z] error: TypeError: Cannot read properties of undefined (reading 'dark')
+    at c (/app/.next/server/pages/site.webmanifest.js:1:4374)
+    at /app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:31:909
+    at /app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/trace/tracer.js:169:36
+    at NoopContextManager.with (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:7062)
+    at ContextAPI.with (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:518)
+    at NoopTracer.startActiveSpan (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18093)
+    at ProxyTracer.startActiveSpan (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18854)
+    at /app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/trace/tracer.js:151:103
+    at NoopContextManager.with (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:7062)
+    at ContextAPI.with (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:518)
+[2025-07-17T19:51:34.611Z] error: TypeError: Cannot read properties of undefined (reading 'dark')
+    at c (/app/.next/server/pages/site.webmanifest.js:1:4374)
+    at /app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:31:909
+    at /app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/trace/tracer.js:169:36
+    at NoopContextManager.with (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:7062)
+    at ContextAPI.with (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:518)
+    at NoopTracer.startActiveSpan (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18093)
+    at ProxyTracer.startActiveSpan (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18854)
+    at /app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/trace/tracer.js:151:103
+    at NoopContextManager.with (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:7062)
+    at ContextAPI.with (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:518)
