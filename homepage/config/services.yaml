@@ -1,0 +1,7 @@
+- Infrastructure:
+    - Portainer:
+        icon: portainer
+        href: http://localhost:9443
+    - Homepage:
+        icon: homepage
+        href: http://localhost:3000

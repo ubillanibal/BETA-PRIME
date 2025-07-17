@@ -1,0 +1,5 @@
+language: en
+color: dark
+layout:
+  - name: my-apps
+    items: 4
