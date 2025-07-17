@@ -1,5 +1,5 @@
 ---
-- Infrastructure:
+- my-apps:
     - Portainer:
         icon: portainer
         href: http://localhost:9443

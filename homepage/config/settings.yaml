@@ -1,7 +1,8 @@
 ---
-title: My NOT so Awesome Homepage
-language: en
-color: dark
-layout:
-  - name: my-apps
-    items: 4
+homepage:
+  title: My NOT so Awesome Homepage
+  language: en
+  color: dark
+  layout:
+    - name: my-apps
+      items: 4
