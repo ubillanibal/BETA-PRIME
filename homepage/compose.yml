@@ -6,7 +6,7 @@ services:
       - 3000:3000
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock 
-      - homepage/config:/app/config # Make sure your local config directory exists
+      - BETA-PRIME/homepage/config:/app/config # Make sure your local config directory exists
     environment:
       HOMEPAGE_ALLOWED_HOSTS: localhost,192.168.1.100,0.0.0.0.i # required, may need port.
     restart: unless-stopped  
