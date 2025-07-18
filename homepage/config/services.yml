@@ -1,0 +1,11 @@
+- Group A:
+    - Service A:
+        href: http://localhost/
+    - Service B:
+        href: http://localhost/
+
+- Group B:
+    - Service C:
+        href: http://localhost/
+    - Service D:
+        href: http://localhost/        
