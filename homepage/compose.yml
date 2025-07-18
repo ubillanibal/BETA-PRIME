@@ -5,8 +5,7 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock 
-      - ./config:/app/config
+      - /path/to/config:/app/config # Make sure your local config directory exists
+      - /var/run/docker.sock:/var/run/docker.sock # (optional) For docker integrations
     environment:
-      HOMEPAGE_ALLOWED_HOSTS: localhost,192.168.1.100,0.0.0.0
-    restart: unless-stopped  
+      # HOMEPAGE_ALLOWED_HOSTS: gethomepage.dev
